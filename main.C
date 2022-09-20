@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+void main(void)
 {
     pritf('Hello World\n');
     return 0;
