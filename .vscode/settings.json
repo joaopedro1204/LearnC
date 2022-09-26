@@ -1,5 +1,13 @@
 {
     "files.associations": {
-        "main.C": "cpp"
-    }
+        "main.C": "cpp",
+        "com_extern.C": "cpp",
+        "constant.C": "cpp",
+        "modifica.C": "cpp",
+        "constantP.C": "cpp",
+        "test.C": "cpp",
+        "operadores.C": "cpp",
+        "logic.C": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
 }
