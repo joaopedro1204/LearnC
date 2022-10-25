@@ -7,7 +7,27 @@
         "constantP.C": "cpp",
         "test.C": "cpp",
         "operadores.C": "cpp",
-        "logic.C": "cpp"
+        "logic.C": "cpp",
+        "ternaria.C": "cpp",
+        "operPointers.C": "cpp",
+        "notas.C": "cpp",
+        "ex001.C": "cpp",
+        "ex002.C": "cpp",
+        "ex003.C": "cpp",
+        "ex005.C": "cpp",
+        "ex006.C": "cpp",
+        "ex007.C": "cpp",
+        "ex008.C": "cpp",
+        "ex009.C": "cpp",
+        "invertenum.C": "cpp",
+        "triangles.C": "cpp",
+        "calculator.C": "cpp",
+        "atribuicoes.C": "cpp",
+        "modificadores.C": "cpp",
+        "es.C": "cpp",
+        "esstring.C": "cpp",
+        "saidaprintf.C": "cpp",
+        "scan.C": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }

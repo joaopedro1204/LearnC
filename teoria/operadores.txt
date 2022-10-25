@@ -43,3 +43,7 @@ BIT A BIT
 Operador ternário ?
 
 x = Exp1 ? Exp2: Exp3 - se Exp 1 for verdadeira, então a variável x recebe Exp2; se Exp1 for falsa, a variável x recebe o valor de Exp3.
+
+C reduzido - É como é chamada a técnica para abreviar atribuições que envolvem operadores aritméticos.
+
+    Por exemlo: a setença (var = var operador exp) pode ser reduzida para (var operador= exp).
