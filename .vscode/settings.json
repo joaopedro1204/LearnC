@@ -27,7 +27,9 @@
         "es.C": "cpp",
         "esstring.C": "cpp",
         "saidaprintf.C": "cpp",
-        "scan.C": "cpp"
+        "scan.C": "cpp",
+        "ex004.C": "cpp",
+        "testes.C": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
