@@ -27,8 +27,8 @@ int main(void)
 
     freq_impar = (float) cont_impar / qnum;
 
-    printf("Frequência de números pares: %f%%\n", freq_par * 100);
-    printf("\nFrequência de números ímpares: %f%%", freq_impar * 100);
+    printf("Frequ%cncia de n%cmeros pares: %f%%\n", 136, 163, freq_par * 100);
+    printf("\nFrequ%cncia de n%cmeros %cmpares: %f%%", 136, 163, 161, freq_impar * 100);
 
     return 0;
 }

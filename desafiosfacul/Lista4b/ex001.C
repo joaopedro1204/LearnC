@@ -8,7 +8,10 @@ int main(void)
 
     while (i <= 20)
     {
-        if (i == 2) continue;
+        if (i == 2){
+            i++;
+            continue;
+        } 
         if (i == 5) break;
         printf("i = %d\n", i);
         i++;

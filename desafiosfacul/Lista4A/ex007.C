@@ -25,8 +25,7 @@ int main(void)
 
     exp = (float) (4 * dentro) / qnum; /*Expressão que irá gerar o valor próximo de pi*/
 
-    printf("%d\n", dentro);
-    printf("Expressão: %f", exp);
+    printf("Expressao: %f", exp);
 
     return 0;
 }

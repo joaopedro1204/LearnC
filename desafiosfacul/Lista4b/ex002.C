@@ -11,7 +11,7 @@ int main(void)
 
     media_idade = 0;
 
-    printf("ENTRE SOMENTE COM DADOS NÚMERICOS INTEIROS POSITIVOS\n");
+    printf("ENTRE SOMENTE COM DADOS NUMERICOS INTEIROS POSITIVOS\n");
     while (idade != 0)
     {
         printf("Digite a idade [digite 0 para interromper]: ");
