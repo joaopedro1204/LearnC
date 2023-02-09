@@ -67,6 +67,12 @@ Na string de controle devemos colocacar o código do da dado de formatação do 
 
 Scanset - caso escrevamos scanf("%[abcd]", &str) o ponteiro que identifica a variável str irá armazenar os valores lidos até o primeiro caracter diferente do scanset [abcd]. Outro exemplo é scanf("%d%[abcd]%s", i, str1, str2); primeiro será lido um inteiro, armazenado em i, seguido de uma cadeia de caracteres contendo a, b, c ou d, que será armazenada na variável str1. Quando for encontrado o primeiro caractere diferente do scanset, o caracteres seguintes serão armazenados em str2.
 
+OBSERVAÇÕES E CUIDADOS ACERCA DAS FUNÇÕES DE ENTRADA
+
+scanf - durante a leitura de dados, scanf para de ler quando encontra no buffer o primeiro espaço, caracter nova linha ou retorno de carro (CR). Esses caracteres ficam salvos no buffer e influenciarão na operação do próximo scanf. Se o próximo scanf também ler uma string ou caractere, ele primeiro lerá o que já está no buffer, podendo ler aqueles caracteres citados.
+
+fgets - caso use essa função para ler strings a partir do teclado, quando o usuário der o retorno de carro, esse caractere será salvo na string, podendo gerar comportamentos idesejados.
+
 
 
 

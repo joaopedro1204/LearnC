@@ -1,5 +1,6 @@
 {
     "files.associations": {
+        "*.C": "c",
         "main.C": "cpp",
         "com_extern.C": "cpp",
         "constant.C": "cpp",
@@ -29,7 +30,26 @@
         "saidaprintf.C": "cpp",
         "scan.C": "cpp",
         "ex004.C": "cpp",
-        "testes.C": "cpp"
+        "testes.C": "cpp",
+        "geral.C": "cpp",
+        "str.C": "cpp",
+        "editordetexto.C": "cpp",
+        "ex010.C": "cpp",
+        "ex011.C": "cpp",
+        "ex012.C": "cpp",
+        "compare": "cpp",
+        "concepts": "cpp",
+        "type_traits": "cpp",
+        "cmath": "cpp",
+        "limits": "cpp",
+        "new": "cpp"
     },
-    "C_Cpp.errorSquiggles": "Disabled"
+    "C_Cpp.errorSquiggles": "Disabled",
+    "C_Cpp.codeAnalysis.clangTidy.checks.disabled": [
+        "clang-diagnostic-error",
+        "clang-diagnostic-error",
+        "clang-diagnostic-error",
+        "clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling"
+    ],
+    "c-cpp-compile-run.c-flags": "-Wall -Wextra -ansi -pedantic"
 }
